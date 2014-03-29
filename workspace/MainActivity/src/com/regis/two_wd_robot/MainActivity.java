@@ -53,7 +53,8 @@ public class MainActivity extends Activity implements SensorEventListener {
             UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
  
     // ==> hardcode your server's MAC address here
-    private static String address = "20:13:12:04:05:92"; //Regis-2
+    //private static String address = "20:13:12:04:05:92"; //Regis-2
+    private static String address = "74:de:2b:4c:2b:ba"; //NB-REGIS-HSU1
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
